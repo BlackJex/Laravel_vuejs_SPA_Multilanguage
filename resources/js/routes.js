@@ -1,5 +1,4 @@
 import i18n from './i18n.js'
-
 import Welcome from './pages/Welcome.vue';
 import About from './pages/About.vue';
 import Contacts from './pages/Contacts.vue';
