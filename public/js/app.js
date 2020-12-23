@@ -86,6 +86,80 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/@icon/themify-icons/themify-icons.css":
+/*!************************************************************!*\
+  !*** ./node_modules/@icon/themify-icons/themify-icons.css ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../css-loader??ref--6-1!../../postcss-loader/src??ref--6-2!./themify-icons.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/@icon/themify-icons/themify-icons.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/@icon/themify-icons/themify-icons.eot":
+/*!************************************************************!*\
+  !*** ./node_modules/@icon/themify-icons/themify-icons.eot ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/vendor/@icon/themify-icons/themify-icons.eot?2c454669bdf3aebf32a1bd8ac1e0d2d6";
+
+/***/ }),
+
+/***/ "./node_modules/@icon/themify-icons/themify-icons.svg":
+/*!************************************************************!*\
+  !*** ./node_modules/@icon/themify-icons/themify-icons.svg ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/vendor/@icon/themify-icons/themify-icons.svg?9c8e96ecc7fa01e6ebcd196495ed2db5";
+
+/***/ }),
+
+/***/ "./node_modules/@icon/themify-icons/themify-icons.ttf":
+/*!************************************************************!*\
+  !*** ./node_modules/@icon/themify-icons/themify-icons.ttf ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/vendor/@icon/themify-icons/themify-icons.ttf?e23a7dcaefbde4e74e263247aa42ecd7";
+
+/***/ }),
+
+/***/ "./node_modules/@icon/themify-icons/themify-icons.woff":
+/*!*************************************************************!*\
+  !*** ./node_modules/@icon/themify-icons/themify-icons.woff ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/vendor/@icon/themify-icons/themify-icons.woff?a1ecc3b826d01251edddf29c3e4e1e97";
+
+/***/ }),
+
 /***/ "./node_modules/axios/index.js":
 /*!*************************************!*\
   !*** ./node_modules/axios/index.js ***!
@@ -1895,6 +1969,140 @@ module.exports = {
   extend: extend,
   trim: trim
 };
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/@icon/themify-icons/themify-icons.css":
+/*!********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/@icon/themify-icons/themify-icons.css ***!
+  \********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var escape = __webpack_require__(/*! ../../css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/**\n * Themify icons, 1.0.1\n * Created by Themify\n * http://themify.me/themify-icons\n * MIT License\n */\n\n@charset \"UTF-8\";\n\n@font-face {\n  font-family: \"themify-icons\";\n\n  src: url(" + escape(__webpack_require__(/*! ./themify-icons.eot */ "./node_modules/@icon/themify-icons/themify-icons.eot")) + ");\n\n  src: url(" + escape(__webpack_require__(/*! ./themify-icons.eot */ "./node_modules/@icon/themify-icons/themify-icons.eot")) + "?#iefix) format('eot'),\n\n    url(" + escape(__webpack_require__(/*! ./themify-icons.woff */ "./node_modules/@icon/themify-icons/themify-icons.woff")) + ") format('woff'),\n    url(" + escape(__webpack_require__(/*! ./themify-icons.ttf */ "./node_modules/@icon/themify-icons/themify-icons.ttf")) + ") format('truetype'),\n    url(" + escape(__webpack_require__(/*! ./themify-icons.svg */ "./node_modules/@icon/themify-icons/themify-icons.svg")) + "#themify-icons) format('svg');\n}\n\n.ti {\n  font-family: \"themify-icons\";\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-style: normal;\n  font-variant: normal;\n  font-weight: normal;\n  speak: none;\n  text-decoration: none;\n  text-transform: none;\n}\n\n.ti-arrow-up:before {\n  content: \"\\E627\";\n}\n\n.ti-arrow-right:before {\n  content: \"\\E628\";\n}\n\n.ti-arrow-left:before {\n  content: \"\\E629\";\n}\n\n.ti-arrow-down:before {\n  content: \"\\E62A\";\n}\n\n.ti-arrows-vertical:before {\n  content: \"\\E657\";\n}\n\n.ti-arrows-horizontal:before {\n  content: \"\\E658\";\n}\n\n.ti-angle-up:before {\n  content: \"\\E648\";\n}\n\n.ti-angle-right:before {\n  content: \"\\E649\";\n}\n\n.ti-angle-left:before {\n  content: \"\\E64A\";\n}\n\n.ti-angle-down:before {\n  content: \"\\E64B\";\n}\n\n.ti-angle-double-up:before {\n  content: \"\\E660\";\n}\n\n.ti-angle-double-right:before {\n  content: \"\\E661\";\n}\n\n.ti-angle-double-left:before {\n  content: \"\\E662\";\n}\n\n.ti-angle-double-down:before {\n  content: \"\\E663\";\n}\n\n.ti-move:before {\n  content: \"\\E656\";\n}\n\n.ti-fullscreen:before {\n  content: \"\\E659\";\n}\n\n.ti-arrow-top-right:before {\n  content: \"\\E65A\";\n}\n\n.ti-arrow-top-left:before {\n  content: \"\\E65B\";\n}\n\n.ti-arrow-circle-up:before {\n  content: \"\\E65C\";\n}\n\n.ti-arrow-circle-right:before {\n  content: \"\\E65D\";\n}\n\n.ti-arrow-circle-left:before {\n  content: \"\\E65E\";\n}\n\n.ti-arrow-circle-down:before {\n  content: \"\\E65F\";\n}\n\n.ti-arrows-corner:before {\n  content: \"\\E6BE\";\n}\n\n.ti-split-v:before {\n  content: \"\\E675\";\n}\n\n.ti-split-v-alt:before {\n  content: \"\\E6D6\";\n}\n\n.ti-split-h:before {\n  content: \"\\E676\";\n}\n\n.ti-hand-point-up:before {\n  content: \"\\E71A\";\n}\n\n.ti-hand-point-right:before {\n  content: \"\\E71B\";\n}\n\n.ti-hand-point-left:before {\n  content: \"\\E71C\";\n}\n\n.ti-hand-point-down:before {\n  content: \"\\E71D\";\n}\n\n.ti-back-right:before {\n  content: \"\\E6BC\";\n}\n\n.ti-back-left:before {\n  content: \"\\E6BD\";\n}\n\n.ti-exchange-vertical:before {\n  content: \"\\E63F\";\n}\n\n.ti-wand:before {\n  content: \"\\E600\";\n}\n\n.ti-save:before {\n  content: \"\\E746\";\n}\n\n.ti-save-alt:before {\n  content: \"\\E747\";\n}\n\n.ti-direction:before {\n  content: \"\\E6A8\";\n}\n\n.ti-direction-alt:before {\n  content: \"\\E6A9\";\n}\n\n.ti-user:before {\n  content: \"\\E602\";\n}\n\n.ti-link:before {\n  content: \"\\E62D\";\n}\n\n.ti-unlink:before {\n  content: \"\\E604\";\n}\n\n.ti-trash:before {\n  content: \"\\E605\";\n}\n\n.ti-target:before {\n  content: \"\\E607\";\n}\n\n.ti-tag:before {\n  content: \"\\E608\";\n}\n\n.ti-desktop:before {\n  content: \"\\E640\";\n}\n\n.ti-tablet:before {\n  content: \"\\E609\";\n}\n\n.ti-mobile:before {\n  content: \"\\E621\";\n}\n\n.ti-email:before {\n  content: \"\\E75A\";\n}\n\n.ti-star:before {\n  content: \"\\E60A\";\n}\n\n.ti-spray:before {\n  content: \"\\E60B\";\n}\n\n.ti-signal:before {\n  content: \"\\E60C\";\n}\n\n.ti-shopping-cart:before {\n  content: \"\\E60D\";\n}\n\n.ti-shopping-cart-full:before {\n  content: \"\\E60E\";\n}\n\n.ti-settings:before {\n  content: \"\\E60F\";\n}\n\n.ti-search:before {\n  content: \"\\E610\";\n}\n\n.ti-zoom-in:before {\n  content: \"\\E611\";\n}\n\n.ti-zoom-out:before {\n  content: \"\\E612\";\n}\n\n.ti-cut:before {\n  content: \"\\E613\";\n}\n\n.ti-ruler:before {\n  content: \"\\E614\";\n}\n\n.ti-ruler-alt-2:before {\n  content: \"\\E6DB\";\n}\n\n.ti-ruler-pencil:before {\n  content: \"\\E615\";\n}\n\n.ti-ruler-alt:before {\n  content: \"\\E616\";\n}\n\n.ti-bookmark:before {\n  content: \"\\E617\";\n}\n\n.ti-bookmark-alt:before {\n  content: \"\\E618\";\n}\n\n.ti-reload:before {\n  content: \"\\E619\";\n}\n\n.ti-plus:before {\n  content: \"\\E61A\";\n}\n\n.ti-minus:before {\n  content: \"\\E622\";\n}\n\n.ti-close:before {\n  content: \"\\E646\";\n}\n\n.ti-pin:before {\n  content: \"\\E61B\";\n}\n\n.ti-pencil:before {\n  content: \"\\E61C\";\n}\n\n.ti-pencil-alt:before {\n  content: \"\\E61D\";\n}\n\n.ti-paint-roller:before {\n  content: \"\\E61E\";\n}\n\n.ti-paint-bucket:before {\n  content: \"\\E61F\";\n}\n\n.ti-na:before {\n  content: \"\\E620\";\n}\n\n.ti-medall:before {\n  content: \"\\E623\";\n}\n\n.ti-medall-alt:before {\n  content: \"\\E624\";\n}\n\n.ti-marker:before {\n  content: \"\\E625\";\n}\n\n.ti-marker-alt:before {\n  content: \"\\E626\";\n}\n\n.ti-lock:before {\n  content: \"\\E62B\";\n}\n\n.ti-unlock:before {\n  content: \"\\E603\";\n}\n\n.ti-location-arrow:before {\n  content: \"\\E62C\";\n}\n\n.ti-layout:before {\n  content: \"\\E62E\";\n}\n\n.ti-layers:before {\n  content: \"\\E62F\";\n}\n\n.ti-layers-alt:before {\n  content: \"\\E630\";\n}\n\n.ti-key:before {\n  content: \"\\E631\";\n}\n\n.ti-image:before {\n  content: \"\\E633\";\n}\n\n.ti-heart:before {\n  content: \"\\E634\";\n}\n\n.ti-heart-broken:before {\n  content: \"\\E635\";\n}\n\n.ti-hand-stop:before {\n  content: \"\\E636\";\n}\n\n.ti-hand-open:before {\n  content: \"\\E637\";\n}\n\n.ti-hand-drag:before {\n  content: \"\\E638\";\n}\n\n.ti-flag:before {\n  content: \"\\E63A\";\n}\n\n.ti-flag-alt:before {\n  content: \"\\E63B\";\n}\n\n.ti-flag-alt-2:before {\n  content: \"\\E63C\";\n}\n\n.ti-eye:before {\n  content: \"\\E63D\";\n}\n\n.ti-import:before {\n  content: \"\\E632\";\n}\n\n.ti-export:before {\n  content: \"\\E63E\";\n}\n\n.ti-cup:before {\n  content: \"\\E641\";\n}\n\n.ti-crown:before {\n  content: \"\\E642\";\n}\n\n.ti-comments:before {\n  content: \"\\E643\";\n}\n\n.ti-comment:before {\n  content: \"\\E644\";\n}\n\n.ti-comment-alt:before {\n  content: \"\\E645\";\n}\n\n.ti-thought:before {\n  content: \"\\E606\";\n}\n\n.ti-clip:before {\n  content: \"\\E647\";\n}\n\n.ti-check:before {\n  content: \"\\E64C\";\n}\n\n.ti-check-box:before {\n  content: \"\\E64D\";\n}\n\n.ti-camera:before {\n  content: \"\\E64E\";\n}\n\n.ti-announcement:before {\n  content: \"\\E64F\";\n}\n\n.ti-brush:before {\n  content: \"\\E650\";\n}\n\n.ti-brush-alt:before {\n  content: \"\\E727\";\n}\n\n.ti-palette:before {\n  content: \"\\E6E0\";\n}\n\n.ti-briefcase:before {\n  content: \"\\E651\";\n}\n\n.ti-bolt:before {\n  content: \"\\E652\";\n}\n\n.ti-bolt-alt:before {\n  content: \"\\E653\";\n}\n\n.ti-blackboard:before {\n  content: \"\\E654\";\n}\n\n.ti-bag:before {\n  content: \"\\E655\";\n}\n\n.ti-world:before {\n  content: \"\\E665\";\n}\n\n.ti-wheelchair:before {\n  content: \"\\E666\";\n}\n\n.ti-car:before {\n  content: \"\\E6B5\";\n}\n\n.ti-truck:before {\n  content: \"\\E66D\";\n}\n\n.ti-timer:before {\n  content: \"\\E66E\";\n}\n\n.ti-ticket:before {\n  content: \"\\E66F\";\n}\n\n.ti-thumb-up:before {\n  content: \"\\E670\";\n}\n\n.ti-thumb-down:before {\n  content: \"\\E671\";\n}\n\n.ti-stats-up:before {\n  content: \"\\E673\";\n}\n\n.ti-stats-down:before {\n  content: \"\\E674\";\n}\n\n.ti-shine:before {\n  content: \"\\E678\";\n}\n\n.ti-shift-right:before {\n  content: \"\\E679\";\n}\n\n.ti-shift-left:before {\n  content: \"\\E67A\";\n}\n\n.ti-shift-right-alt:before {\n  content: \"\\E6D9\";\n}\n\n.ti-shift-left-alt:before {\n  content: \"\\E6DA\";\n}\n\n.ti-shield:before {\n  content: \"\\E67B\";\n}\n\n.ti-notepad:before {\n  content: \"\\E67C\";\n}\n\n.ti-server:before {\n  content: \"\\E67D\";\n}\n\n.ti-pulse:before {\n  content: \"\\E680\";\n}\n\n.ti-printer:before {\n  content: \"\\E681\";\n}\n\n.ti-power-off:before {\n  content: \"\\E682\";\n}\n\n.ti-plug:before {\n  content: \"\\E683\";\n}\n\n.ti-pie-chart:before {\n  content: \"\\E684\";\n}\n\n.ti-panel:before {\n  content: \"\\E686\";\n}\n\n.ti-package:before {\n  content: \"\\E687\";\n}\n\n.ti-music:before {\n  content: \"\\E688\";\n}\n\n.ti-music-alt:before {\n  content: \"\\E689\";\n}\n\n.ti-mouse:before {\n  content: \"\\E68A\";\n}\n\n.ti-mouse-alt:before {\n  content: \"\\E68B\";\n}\n\n.ti-money:before {\n  content: \"\\E68C\";\n}\n\n.ti-microphone:before {\n  content: \"\\E68D\";\n}\n\n.ti-menu:before {\n  content: \"\\E68E\";\n}\n\n.ti-menu-alt:before {\n  content: \"\\E68F\";\n}\n\n.ti-map:before {\n  content: \"\\E690\";\n}\n\n.ti-map-alt:before {\n  content: \"\\E691\";\n}\n\n.ti-location-pin:before {\n  content: \"\\E693\";\n}\n\n.ti-light-bulb:before {\n  content: \"\\E695\";\n}\n\n.ti-info:before {\n  content: \"\\E697\";\n}\n\n.ti-infinite:before {\n  content: \"\\E698\";\n}\n\n.ti-id-badge:before {\n  content: \"\\E699\";\n}\n\n.ti-hummer:before {\n  content: \"\\E69A\";\n}\n\n.ti-home:before {\n  content: \"\\E69B\";\n}\n\n.ti-help:before {\n  content: \"\\E69C\";\n}\n\n.ti-headphone:before {\n  content: \"\\E69D\";\n}\n\n.ti-harddrives:before {\n  content: \"\\E69E\";\n}\n\n.ti-harddrive:before {\n  content: \"\\E69F\";\n}\n\n.ti-gift:before {\n  content: \"\\E6A0\";\n}\n\n.ti-game:before {\n  content: \"\\E6A1\";\n}\n\n.ti-filter:before {\n  content: \"\\E6A2\";\n}\n\n.ti-files:before {\n  content: \"\\E6A3\";\n}\n\n.ti-file:before {\n  content: \"\\E6A4\";\n}\n\n.ti-zip:before {\n  content: \"\\E664\";\n}\n\n.ti-folder:before {\n  content: \"\\E639\";\n}\n\n.ti-envelope:before {\n  content: \"\\E6A6\";\n}\n\n.ti-dashboard:before {\n  content: \"\\E6AA\";\n}\n\n.ti-cloud:before {\n  content: \"\\E6B1\";\n}\n\n.ti-cloud-up:before {\n  content: \"\\E6B2\";\n}\n\n.ti-cloud-down:before {\n  content: \"\\E6B3\";\n}\n\n.ti-clipboard:before {\n  content: \"\\E6B4\";\n}\n\n.ti-calendar:before {\n  content: \"\\E6B6\";\n}\n\n.ti-book:before {\n  content: \"\\E6B7\";\n}\n\n.ti-bell:before {\n  content: \"\\E6B8\";\n}\n\n.ti-basketball:before {\n  content: \"\\E6B9\";\n}\n\n.ti-bar-chart:before {\n  content: \"\\E6BA\";\n}\n\n.ti-bar-chart-alt:before {\n  content: \"\\E6BB\";\n}\n\n.ti-archive:before {\n  content: \"\\E6BF\";\n}\n\n.ti-anchor:before {\n  content: \"\\E6C0\";\n}\n\n.ti-alert:before {\n  content: \"\\E6C5\";\n}\n\n.ti-alarm-clock:before {\n  content: \"\\E6C6\";\n}\n\n.ti-agenda:before {\n  content: \"\\E6C7\";\n}\n\n.ti-write:before {\n  content: \"\\E6C8\";\n}\n\n.ti-wallet:before {\n  content: \"\\E6CD\";\n}\n\n.ti-video-clapper:before {\n  content: \"\\E6CE\";\n}\n\n.ti-video-camera:before {\n  content: \"\\E6CF\";\n}\n\n.ti-vector:before {\n  content: \"\\E6D0\";\n}\n\n.ti-support:before {\n  content: \"\\E6D4\";\n}\n\n.ti-stamp:before {\n  content: \"\\E6D5\";\n}\n\n.ti-slice:before {\n  content: \"\\E6D7\";\n}\n\n.ti-shortcode:before {\n  content: \"\\E6D8\";\n}\n\n.ti-receipt:before {\n  content: \"\\E6DC\";\n}\n\n.ti-pin2:before {\n  content: \"\\E6DD\";\n}\n\n.ti-pin-alt:before {\n  content: \"\\E6DE\";\n}\n\n.ti-pencil-alt2:before {\n  content: \"\\E6DF\";\n}\n\n.ti-eraser:before {\n  content: \"\\E6A5\";\n}\n\n.ti-more:before {\n  content: \"\\E6E1\";\n}\n\n.ti-more-alt:before {\n  content: \"\\E6E2\";\n}\n\n.ti-microphone-alt:before {\n  content: \"\\E6E3\";\n}\n\n.ti-magnet:before {\n  content: \"\\E6E4\";\n}\n\n.ti-line-double:before {\n  content: \"\\E6E5\";\n}\n\n.ti-line-dotted:before {\n  content: \"\\E6E6\";\n}\n\n.ti-line-dashed:before {\n  content: \"\\E6E7\";\n}\n\n.ti-ink-pen:before {\n  content: \"\\E716\";\n}\n\n.ti-info-alt:before {\n  content: \"\\E717\";\n}\n\n.ti-help-alt:before {\n  content: \"\\E718\";\n}\n\n.ti-headphone-alt:before {\n  content: \"\\E719\";\n}\n\n.ti-gallery:before {\n  content: \"\\E71E\";\n}\n\n.ti-face-smile:before {\n  content: \"\\E71F\";\n}\n\n.ti-face-sad:before {\n  content: \"\\E720\";\n}\n\n.ti-credit-card:before {\n  content: \"\\E721\";\n}\n\n.ti-comments-smiley:before {\n  content: \"\\E726\";\n}\n\n.ti-time:before {\n  content: \"\\E72B\";\n}\n\n.ti-share:before {\n  content: \"\\E72E\";\n}\n\n.ti-share-alt:before {\n  content: \"\\E72F\";\n}\n\n.ti-rocket:before {\n  content: \"\\E730\";\n}\n\n.ti-new-window:before {\n  content: \"\\E732\";\n}\n\n.ti-rss:before {\n  content: \"\\E75E\";\n}\n\n.ti-rss-alt:before {\n  content: \"\\E75F\";\n}\n\n.ti-control-stop:before {\n  content: \"\\E6AB\";\n}\n\n.ti-control-shuffle:before {\n  content: \"\\E6AC\";\n}\n\n.ti-control-play:before {\n  content: \"\\E6AD\";\n}\n\n.ti-control-pause:before {\n  content: \"\\E6AE\";\n}\n\n.ti-control-forward:before {\n  content: \"\\E6AF\";\n}\n\n.ti-control-backward:before {\n  content: \"\\E6B0\";\n}\n\n.ti-volume:before {\n  content: \"\\E601\";\n}\n\n.ti-control-skip-forward:before {\n  content: \"\\E722\";\n}\n\n.ti-control-skip-backward:before {\n  content: \"\\E723\";\n}\n\n.ti-control-record:before {\n  content: \"\\E724\";\n}\n\n.ti-control-eject:before {\n  content: \"\\E725\";\n}\n\n.ti-paragraph:before {\n  content: \"\\E685\";\n}\n\n.ti-uppercase:before {\n  content: \"\\E66A\";\n}\n\n.ti-underline:before {\n  content: \"\\E66C\";\n}\n\n.ti-text:before {\n  content: \"\\E672\";\n}\n\n.ti-Italic:before {\n  content: \"\\E696\";\n}\n\n.ti-smallcap:before {\n  content: \"\\E677\";\n}\n\n.ti-list:before {\n  content: \"\\E694\";\n}\n\n.ti-list-ol:before {\n  content: \"\\E734\";\n}\n\n.ti-align-right:before {\n  content: \"\\E6C1\";\n}\n\n.ti-align-left:before {\n  content: \"\\E6C2\";\n}\n\n.ti-align-justify:before {\n  content: \"\\E6C3\";\n}\n\n.ti-align-center:before {\n  content: \"\\E6C4\";\n}\n\n.ti-quote-right:before {\n  content: \"\\E67E\";\n}\n\n.ti-quote-left:before {\n  content: \"\\E67F\";\n}\n\n.ti-layout-width-full:before {\n  content: \"\\E6E8\";\n}\n\n.ti-layout-width-default:before {\n  content: \"\\E6E9\";\n}\n\n.ti-layout-width-default-alt:before {\n  content: \"\\E6EA\";\n}\n\n.ti-layout-tab:before {\n  content: \"\\E6EB\";\n}\n\n.ti-layout-tab-window:before {\n  content: \"\\E6EC\";\n}\n\n.ti-layout-tab-v:before {\n  content: \"\\E6ED\";\n}\n\n.ti-layout-tab-min:before {\n  content: \"\\E6EE\";\n}\n\n.ti-layout-slider:before {\n  content: \"\\E6EF\";\n}\n\n.ti-layout-slider-alt:before {\n  content: \"\\E6F0\";\n}\n\n.ti-layout-sidebar-right:before {\n  content: \"\\E6F1\";\n}\n\n.ti-layout-sidebar-none:before {\n  content: \"\\E6F2\";\n}\n\n.ti-layout-sidebar-left:before {\n  content: \"\\E6F3\";\n}\n\n.ti-layout-placeholder:before {\n  content: \"\\E6F4\";\n}\n\n.ti-layout-menu:before {\n  content: \"\\E6F5\";\n}\n\n.ti-layout-menu-v:before {\n  content: \"\\E6F6\";\n}\n\n.ti-layout-menu-separated:before {\n  content: \"\\E6F7\";\n}\n\n.ti-layout-menu-full:before {\n  content: \"\\E6F8\";\n}\n\n.ti-layout-media-right:before {\n  content: \"\\E6FA\";\n}\n\n.ti-layout-media-right-alt:before {\n  content: \"\\E6F9\";\n}\n\n.ti-layout-media-overlay:before {\n  content: \"\\E6FB\";\n}\n\n.ti-layout-media-overlay-alt:before {\n  content: \"\\E6FC\";\n}\n\n.ti-layout-media-overlay-alt-2:before {\n  content: \"\\E6FD\";\n}\n\n.ti-layout-media-left:before {\n  content: \"\\E6FF\";\n}\n\n.ti-layout-media-left-alt:before {\n  content: \"\\E6FE\";\n}\n\n.ti-layout-media-center:before {\n  content: \"\\E701\";\n}\n\n.ti-layout-media-center-alt:before {\n  content: \"\\E700\";\n}\n\n.ti-layout-list-thumb:before {\n  content: \"\\E702\";\n}\n\n.ti-layout-list-thumb-alt:before {\n  content: \"\\E703\";\n}\n\n.ti-layout-list-post:before {\n  content: \"\\E704\";\n}\n\n.ti-layout-list-large-image:before {\n  content: \"\\E705\";\n}\n\n.ti-layout-line-solid:before {\n  content: \"\\E706\";\n}\n\n.ti-layout-grid4:before {\n  content: \"\\E707\";\n}\n\n.ti-layout-grid3:before {\n  content: \"\\E708\";\n}\n\n.ti-layout-grid2:before {\n  content: \"\\E709\";\n}\n\n.ti-layout-grid2-thumb:before {\n  content: \"\\E70A\";\n}\n\n.ti-layout-cta-right:before {\n  content: \"\\E70B\";\n}\n\n.ti-layout-cta-left:before {\n  content: \"\\E70C\";\n}\n\n.ti-layout-cta-center:before {\n  content: \"\\E70D\";\n}\n\n.ti-layout-cta-btn-right:before {\n  content: \"\\E70E\";\n}\n\n.ti-layout-cta-btn-left:before {\n  content: \"\\E70F\";\n}\n\n.ti-layout-column4:before {\n  content: \"\\E710\";\n}\n\n.ti-layout-column3:before {\n  content: \"\\E711\";\n}\n\n.ti-layout-column2:before {\n  content: \"\\E712\";\n}\n\n.ti-layout-accordion-separated:before {\n  content: \"\\E713\";\n}\n\n.ti-layout-accordion-merged:before {\n  content: \"\\E714\";\n}\n\n.ti-layout-accordion-list:before {\n  content: \"\\E715\";\n}\n\n.ti-widgetized:before {\n  content: \"\\E6CA\";\n}\n\n.ti-widget:before {\n  content: \"\\E6CB\";\n}\n\n.ti-widget-alt:before {\n  content: \"\\E6CC\";\n}\n\n.ti-view-list:before {\n  content: \"\\E667\";\n}\n\n.ti-view-list-alt:before {\n  content: \"\\E668\";\n}\n\n.ti-view-grid:before {\n  content: \"\\E669\";\n}\n\n.ti-upload:before {\n  content: \"\\E66B\";\n}\n\n.ti-download:before {\n  content: \"\\E6A7\";\n}\n\n.ti-loop:before {\n  content: \"\\E692\";\n}\n\n.ti-layout-sidebar-2:before {\n  content: \"\\E736\";\n}\n\n.ti-layout-grid4-alt:before {\n  content: \"\\E737\";\n}\n\n.ti-layout-grid3-alt:before {\n  content: \"\\E738\";\n}\n\n.ti-layout-grid2-alt:before {\n  content: \"\\E739\";\n}\n\n.ti-layout-column4-alt:before {\n  content: \"\\E73A\";\n}\n\n.ti-layout-column3-alt:before {\n  content: \"\\E73B\";\n}\n\n.ti-layout-column2-alt:before {\n  content: \"\\E73C\";\n}\n\n.ti-flickr:before {\n  content: \"\\E740\";\n}\n\n.ti-flickr-alt:before {\n  content: \"\\E759\";\n}\n\n.ti-instagram:before {\n  content: \"\\E73D\";\n}\n\n.ti-google:before {\n  content: \"\\E73E\";\n}\n\n.ti-github:before {\n  content: \"\\E73F\";\n}\n\n.ti-facebook:before {\n  content: \"\\E741\";\n}\n\n.ti-dropbox:before {\n  content: \"\\E742\";\n}\n\n.ti-dropbox-alt:before {\n  content: \"\\E75C\";\n}\n\n.ti-dribbble:before {\n  content: \"\\E743\";\n}\n\n.ti-apple:before {\n  content: \"\\E744\";\n}\n\n.ti-android:before {\n  content: \"\\E745\";\n}\n\n.ti-yahoo:before {\n  content: \"\\E748\";\n}\n\n.ti-trello:before {\n  content: \"\\E74D\";\n}\n\n.ti-stack-overflow:before {\n  content: \"\\E74E\";\n}\n\n.ti-soundcloud:before {\n  content: \"\\E74F\";\n}\n\n.ti-sharethis:before {\n  content: \"\\E750\";\n}\n\n.ti-sharethis-alt:before {\n  content: \"\\E751\";\n}\n\n.ti-reddit:before {\n  content: \"\\E752\";\n}\n\n.ti-microsoft:before {\n  content: \"\\E733\";\n}\n\n.ti-microsoft-alt:before {\n  content: \"\\E754\";\n}\n\n.ti-linux:before {\n  content: \"\\E755\";\n}\n\n.ti-jsfiddle:before {\n  content: \"\\E756\";\n}\n\n.ti-joomla:before {\n  content: \"\\E757\";\n}\n\n.ti-html5:before {\n  content: \"\\E758\";\n}\n\n.ti-css3:before {\n  content: \"\\E75D\";\n}\n\n.ti-drupal:before {\n  content: \"\\E75B\";\n}\n\n.ti-wordpress:before {\n  content: \"\\E749\";\n}\n\n.ti-tumblr:before {\n  content: \"\\E72C\";\n}\n\n.ti-tumblr-alt:before {\n  content: \"\\E74C\";\n}\n\n.ti-skype:before {\n  content: \"\\E72D\";\n}\n\n.ti-youtube:before {\n  content: \"\\E728\";\n}\n\n.ti-vimeo:before {\n  content: \"\\E729\";\n}\n\n.ti-vimeo-alt:before {\n  content: \"\\E74A\";\n}\n\n.ti-twitter:before {\n  content: \"\\E72A\";\n}\n\n.ti-twitter-alt:before {\n  content: \"\\E74B\";\n}\n\n.ti-linkedin:before {\n  content: \"\\E735\";\n}\n\n.ti-pinterest:before {\n  content: \"\\E731\";\n}\n\n.ti-pinterest-alt:before {\n  content: \"\\E753\";\n}\n\n.ti-themify-logo:before {\n  content: \"\\E6D1\";\n}\n\n.ti-themify-favicon:before {\n  content: \"\\E6D2\";\n}\n\n.ti-themify-favicon-alt:before {\n  content: \"\\E6D3\";\n}\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/lib/css-base.js":
+/*!*************************************************!*\
+  !*** ./node_modules/css-loader/lib/css-base.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/lib/url/escape.js":
+/*!***************************************************!*\
+  !*** ./node_modules/css-loader/lib/url/escape.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function escape(url) {
+    if (typeof url !== 'string') {
+        return url
+    }
+    // If url is already wrapped in quotes, remove them
+    if (/^['"].*['"]$/.test(url)) {
+        url = url.slice(1, -1);
+    }
+    // Should url be wrapped?
+    // See https://drafts.csswg.org/css-values-3/#urls
+    if (/["'() \t\n]/.test(url)) {
+        return '"' + url.replace(/"/g, '\\"').replace(/\n/g, '\\n') + '"'
+    }
+
+    return url
+}
 
 
 /***/ }),
@@ -19457,6 +19665,515 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/lib/addStyles.js":
+/*!****************************************************!*\
+  !*** ./node_modules/style-loader/lib/addStyles.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+
+var stylesInDom = {};
+
+var	memoize = function (fn) {
+	var memo;
+
+	return function () {
+		if (typeof memo === "undefined") memo = fn.apply(this, arguments);
+		return memo;
+	};
+};
+
+var isOldIE = memoize(function () {
+	// Test for IE <= 9 as proposed by Browserhacks
+	// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+	// Tests for existence of standard globals is to allow style-loader
+	// to operate correctly into non-standard environments
+	// @see https://github.com/webpack-contrib/style-loader/issues/177
+	return window && document && document.all && !window.atob;
+});
+
+var getTarget = function (target, parent) {
+  if (parent){
+    return parent.querySelector(target);
+  }
+  return document.querySelector(target);
+};
+
+var getElement = (function (fn) {
+	var memo = {};
+
+	return function(target, parent) {
+                // If passing function in options, then use it for resolve "head" element.
+                // Useful for Shadow Root style i.e
+                // {
+                //   insertInto: function () { return document.querySelector("#foo").shadowRoot }
+                // }
+                if (typeof target === 'function') {
+                        return target();
+                }
+                if (typeof memo[target] === "undefined") {
+			var styleTarget = getTarget.call(this, target, parent);
+			// Special case to return head of iframe instead of iframe itself
+			if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+				try {
+					// This will throw an exception if access to iframe is blocked
+					// due to cross-origin restrictions
+					styleTarget = styleTarget.contentDocument.head;
+				} catch(e) {
+					styleTarget = null;
+				}
+			}
+			memo[target] = styleTarget;
+		}
+		return memo[target]
+	};
+})();
+
+var singleton = null;
+var	singletonCounter = 0;
+var	stylesInsertedAtTop = [];
+
+var	fixUrls = __webpack_require__(/*! ./urls */ "./node_modules/style-loader/lib/urls.js");
+
+module.exports = function(list, options) {
+	if (typeof DEBUG !== "undefined" && DEBUG) {
+		if (typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
+	}
+
+	options = options || {};
+
+	options.attrs = typeof options.attrs === "object" ? options.attrs : {};
+
+	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+	// tags it will allow on a page
+	if (!options.singleton && typeof options.singleton !== "boolean") options.singleton = isOldIE();
+
+	// By default, add <style> tags to the <head> element
+        if (!options.insertInto) options.insertInto = "head";
+
+	// By default, add <style> tags to the bottom of the target
+	if (!options.insertAt) options.insertAt = "bottom";
+
+	var styles = listToStyles(list, options);
+
+	addStylesToDom(styles, options);
+
+	return function update (newList) {
+		var mayRemove = [];
+
+		for (var i = 0; i < styles.length; i++) {
+			var item = styles[i];
+			var domStyle = stylesInDom[item.id];
+
+			domStyle.refs--;
+			mayRemove.push(domStyle);
+		}
+
+		if(newList) {
+			var newStyles = listToStyles(newList, options);
+			addStylesToDom(newStyles, options);
+		}
+
+		for (var i = 0; i < mayRemove.length; i++) {
+			var domStyle = mayRemove[i];
+
+			if(domStyle.refs === 0) {
+				for (var j = 0; j < domStyle.parts.length; j++) domStyle.parts[j]();
+
+				delete stylesInDom[domStyle.id];
+			}
+		}
+	};
+};
+
+function addStylesToDom (styles, options) {
+	for (var i = 0; i < styles.length; i++) {
+		var item = styles[i];
+		var domStyle = stylesInDom[item.id];
+
+		if(domStyle) {
+			domStyle.refs++;
+
+			for(var j = 0; j < domStyle.parts.length; j++) {
+				domStyle.parts[j](item.parts[j]);
+			}
+
+			for(; j < item.parts.length; j++) {
+				domStyle.parts.push(addStyle(item.parts[j], options));
+			}
+		} else {
+			var parts = [];
+
+			for(var j = 0; j < item.parts.length; j++) {
+				parts.push(addStyle(item.parts[j], options));
+			}
+
+			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
+		}
+	}
+}
+
+function listToStyles (list, options) {
+	var styles = [];
+	var newStyles = {};
+
+	for (var i = 0; i < list.length; i++) {
+		var item = list[i];
+		var id = options.base ? item[0] + options.base : item[0];
+		var css = item[1];
+		var media = item[2];
+		var sourceMap = item[3];
+		var part = {css: css, media: media, sourceMap: sourceMap};
+
+		if(!newStyles[id]) styles.push(newStyles[id] = {id: id, parts: [part]});
+		else newStyles[id].parts.push(part);
+	}
+
+	return styles;
+}
+
+function insertStyleElement (options, style) {
+	var target = getElement(options.insertInto)
+
+	if (!target) {
+		throw new Error("Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.");
+	}
+
+	var lastStyleElementInsertedAtTop = stylesInsertedAtTop[stylesInsertedAtTop.length - 1];
+
+	if (options.insertAt === "top") {
+		if (!lastStyleElementInsertedAtTop) {
+			target.insertBefore(style, target.firstChild);
+		} else if (lastStyleElementInsertedAtTop.nextSibling) {
+			target.insertBefore(style, lastStyleElementInsertedAtTop.nextSibling);
+		} else {
+			target.appendChild(style);
+		}
+		stylesInsertedAtTop.push(style);
+	} else if (options.insertAt === "bottom") {
+		target.appendChild(style);
+	} else if (typeof options.insertAt === "object" && options.insertAt.before) {
+		var nextSibling = getElement(options.insertAt.before, target);
+		target.insertBefore(style, nextSibling);
+	} else {
+		throw new Error("[Style Loader]\n\n Invalid value for parameter 'insertAt' ('options.insertAt') found.\n Must be 'top', 'bottom', or Object.\n (https://github.com/webpack-contrib/style-loader#insertat)\n");
+	}
+}
+
+function removeStyleElement (style) {
+	if (style.parentNode === null) return false;
+	style.parentNode.removeChild(style);
+
+	var idx = stylesInsertedAtTop.indexOf(style);
+	if(idx >= 0) {
+		stylesInsertedAtTop.splice(idx, 1);
+	}
+}
+
+function createStyleElement (options) {
+	var style = document.createElement("style");
+
+	if(options.attrs.type === undefined) {
+		options.attrs.type = "text/css";
+	}
+
+	if(options.attrs.nonce === undefined) {
+		var nonce = getNonce();
+		if (nonce) {
+			options.attrs.nonce = nonce;
+		}
+	}
+
+	addAttrs(style, options.attrs);
+	insertStyleElement(options, style);
+
+	return style;
+}
+
+function createLinkElement (options) {
+	var link = document.createElement("link");
+
+	if(options.attrs.type === undefined) {
+		options.attrs.type = "text/css";
+	}
+	options.attrs.rel = "stylesheet";
+
+	addAttrs(link, options.attrs);
+	insertStyleElement(options, link);
+
+	return link;
+}
+
+function addAttrs (el, attrs) {
+	Object.keys(attrs).forEach(function (key) {
+		el.setAttribute(key, attrs[key]);
+	});
+}
+
+function getNonce() {
+	if (false) {}
+
+	return __webpack_require__.nc;
+}
+
+function addStyle (obj, options) {
+	var style, update, remove, result;
+
+	// If a transform function was defined, run it on the css
+	if (options.transform && obj.css) {
+	    result = typeof options.transform === 'function'
+		 ? options.transform(obj.css) 
+		 : options.transform.default(obj.css);
+
+	    if (result) {
+	    	// If transform returns a value, use that instead of the original css.
+	    	// This allows running runtime transformations on the css.
+	    	obj.css = result;
+	    } else {
+	    	// If the transform function returns a falsy value, don't add this css.
+	    	// This allows conditional loading of css
+	    	return function() {
+	    		// noop
+	    	};
+	    }
+	}
+
+	if (options.singleton) {
+		var styleIndex = singletonCounter++;
+
+		style = singleton || (singleton = createStyleElement(options));
+
+		update = applyToSingletonTag.bind(null, style, styleIndex, false);
+		remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+
+	} else if (
+		obj.sourceMap &&
+		typeof URL === "function" &&
+		typeof URL.createObjectURL === "function" &&
+		typeof URL.revokeObjectURL === "function" &&
+		typeof Blob === "function" &&
+		typeof btoa === "function"
+	) {
+		style = createLinkElement(options);
+		update = updateLink.bind(null, style, options);
+		remove = function () {
+			removeStyleElement(style);
+
+			if(style.href) URL.revokeObjectURL(style.href);
+		};
+	} else {
+		style = createStyleElement(options);
+		update = applyToTag.bind(null, style);
+		remove = function () {
+			removeStyleElement(style);
+		};
+	}
+
+	update(obj);
+
+	return function updateStyle (newObj) {
+		if (newObj) {
+			if (
+				newObj.css === obj.css &&
+				newObj.media === obj.media &&
+				newObj.sourceMap === obj.sourceMap
+			) {
+				return;
+			}
+
+			update(obj = newObj);
+		} else {
+			remove();
+		}
+	};
+}
+
+var replaceText = (function () {
+	var textStore = [];
+
+	return function (index, replacement) {
+		textStore[index] = replacement;
+
+		return textStore.filter(Boolean).join('\n');
+	};
+})();
+
+function applyToSingletonTag (style, index, remove, obj) {
+	var css = remove ? "" : obj.css;
+
+	if (style.styleSheet) {
+		style.styleSheet.cssText = replaceText(index, css);
+	} else {
+		var cssNode = document.createTextNode(css);
+		var childNodes = style.childNodes;
+
+		if (childNodes[index]) style.removeChild(childNodes[index]);
+
+		if (childNodes.length) {
+			style.insertBefore(cssNode, childNodes[index]);
+		} else {
+			style.appendChild(cssNode);
+		}
+	}
+}
+
+function applyToTag (style, obj) {
+	var css = obj.css;
+	var media = obj.media;
+
+	if(media) {
+		style.setAttribute("media", media)
+	}
+
+	if(style.styleSheet) {
+		style.styleSheet.cssText = css;
+	} else {
+		while(style.firstChild) {
+			style.removeChild(style.firstChild);
+		}
+
+		style.appendChild(document.createTextNode(css));
+	}
+}
+
+function updateLink (link, options, obj) {
+	var css = obj.css;
+	var sourceMap = obj.sourceMap;
+
+	/*
+		If convertToAbsoluteUrls isn't defined, but sourcemaps are enabled
+		and there is no publicPath defined then lets turn convertToAbsoluteUrls
+		on by default.  Otherwise default to the convertToAbsoluteUrls option
+		directly
+	*/
+	var autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;
+
+	if (options.convertToAbsoluteUrls || autoFixUrls) {
+		css = fixUrls(css);
+	}
+
+	if (sourceMap) {
+		// http://stackoverflow.com/a/26603875
+		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
+	}
+
+	var blob = new Blob([css], { type: "text/css" });
+
+	var oldSrc = link.href;
+
+	link.href = URL.createObjectURL(blob);
+
+	if(oldSrc) URL.revokeObjectURL(oldSrc);
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/lib/urls.js":
+/*!***********************************************!*\
+  !*** ./node_modules/style-loader/lib/urls.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+/**
+ * When source maps are enabled, `style-loader` uses a link element with a data-uri to
+ * embed the css on the page. This breaks all relative urls because now they are relative to a
+ * bundle instead of the current page.
+ *
+ * One solution is to only use full urls, but that may be impossible.
+ *
+ * Instead, this function "fixes" the relative urls to be absolute according to the current page location.
+ *
+ * A rudimentary test suite is located at `test/fixUrls.js` and can be run via the `npm test` command.
+ *
+ */
+
+module.exports = function (css) {
+  // get current location
+  var location = typeof window !== "undefined" && window.location;
+
+  if (!location) {
+    throw new Error("fixUrls requires window.location");
+  }
+
+	// blank or null?
+	if (!css || typeof css !== "string") {
+	  return css;
+  }
+
+  var baseUrl = location.protocol + "//" + location.host;
+  var currentDir = baseUrl + location.pathname.replace(/\/[^\/]*$/, "/");
+
+	// convert each url(...)
+	/*
+	This regular expression is just a way to recursively match brackets within
+	a string.
+
+	 /url\s*\(  = Match on the word "url" with any whitespace after it and then a parens
+	   (  = Start a capturing group
+	     (?:  = Start a non-capturing group
+	         [^)(]  = Match anything that isn't a parentheses
+	         |  = OR
+	         \(  = Match a start parentheses
+	             (?:  = Start another non-capturing groups
+	                 [^)(]+  = Match anything that isn't a parentheses
+	                 |  = OR
+	                 \(  = Match a start parentheses
+	                     [^)(]*  = Match anything that isn't a parentheses
+	                 \)  = Match a end parentheses
+	             )  = End Group
+              *\) = Match anything and then a close parens
+          )  = Close non-capturing group
+          *  = Match anything
+       )  = Close capturing group
+	 \)  = Match a close parens
+
+	 /gi  = Get all matches, not the first.  Be case insensitive.
+	 */
+	var fixedCss = css.replace(/url\s*\(((?:[^)(]|\((?:[^)(]+|\([^)(]*\))*\))*)\)/gi, function(fullMatch, origUrl) {
+		// strip quotes (if they exist)
+		var unquotedOrigUrl = origUrl
+			.trim()
+			.replace(/^"(.*)"$/, function(o, $1){ return $1; })
+			.replace(/^'(.*)'$/, function(o, $1){ return $1; });
+
+		// already a full url? no change
+		if (/^(#|data:|http:\/\/|https:\/\/|file:\/\/\/|\s*$)/i.test(unquotedOrigUrl)) {
+		  return fullMatch;
+		}
+
+		// convert the url to a full url
+		var newUrl;
+
+		if (unquotedOrigUrl.indexOf("//") === 0) {
+		  	//TODO: should we add protocol?
+			newUrl = unquotedOrigUrl;
+		} else if (unquotedOrigUrl.indexOf("/") === 0) {
+			// path should be relative to the base url
+			newUrl = baseUrl + unquotedOrigUrl; // already starts with '/'
+		} else {
+			// path should be relative to current directory
+			newUrl = currentDir + unquotedOrigUrl.replace(/^\.\//, ""); // Strip leading './'
+		}
+
+		// send back the fixed url(...)
+		return "url(" + JSON.stringify(newUrl) + ")";
+	});
+
+	// send back the fixed css
+	return fixedCss;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/timers-browserify/main.js":
 /*!************************************************!*\
   !*** ./node_modules/timers-browserify/main.js ***!
@@ -21736,6 +22453,118 @@ VueI18n.version = '8.22.2';
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/layouts/footers/VueFooter.vue?vue&type=template&id=1b273af6&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/layouts/footers/VueFooter.vue?vue&type=template&id=1b273af6& ***!
+  \*****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "footer",
+      { staticClass: "md:fixed bottom-0 left-0 right-0 bg-indigo-900 p-4" },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "md:container md:mx-auto md:flex md:items-center md:justify-between"
+          },
+          [
+            _c("div", { staticClass: "block text-center text-white " }, [
+              _c("p", [
+                _vm._v("\n                Powered by \n                "),
+                _c(
+                  "a",
+                  {
+                    staticClass: "inline-block px-2 py-2 font-semibold",
+                    attrs: {
+                      href: "https://www.jacopolelli.com/it",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v("\n                Jacopo Lelli\n                ")]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", [
+              _c(
+                "div",
+                { staticClass: "block text-center md:text-right text-white" },
+                [
+                  _c(
+                    "a",
+                    {
+                      staticClass:
+                        "inline p-2 text-xl-2 mx-1 my-4 md:my-0 text-lg",
+                      attrs: {
+                        href:
+                          "https://www.linkedin.com/in/jacopo-lelli-348596150/",
+                        target: "_blank",
+                        title: "Linkedin"
+                      }
+                    },
+                    [_c("i", { staticClass: "ti ti-linkedin" })]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    {
+                      staticClass:
+                        "inline p-2 text-xl-2 mx-1 my-4 md:my-0 text-lg",
+                      attrs: {
+                        href: "https://www.facebook.com/jacopo.lelli1",
+                        target: "_blank",
+                        title: "Facebook"
+                      }
+                    },
+                    [_c("i", { staticClass: "ti ti-facebook" })]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    {
+                      staticClass:
+                        "inline p-2 text-xl-2 mx-1 my-4 md:my-0 text-lg",
+                      attrs: {
+                        href: "https://github.com/BlackJex",
+                        target: "_blank",
+                        title: "Github"
+                      }
+                    },
+                    [_c("i", { staticClass: "ti ti-github" })]
+                  )
+                ]
+              )
+            ])
+          ]
+        )
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/layouts/navbars/GuestNavbar.vue?vue&type=template&id=2b2ea3a8&":
 /*!*******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/layouts/navbars/GuestNavbar.vue?vue&type=template&id=2b2ea3a8& ***!
@@ -21759,23 +22588,7 @@ var render = function() {
           "md:container md:mx-auto md:flex md:items-center md:justify-between"
       },
       [
-        _c(
-          "div",
-          { staticClass: "flex justify-between items-center" },
-          [
-            _c(
-              "router-link",
-              {
-                staticClass: "inline-block py-2 text-white text-xl",
-                attrs: { to: "/" }
-              },
-              [_vm._v("\n         Logo\n       ")]
-            ),
-            _vm._v(" "),
-            _vm._m(0)
-          ],
-          1
-        ),
+        _vm._m(0),
         _vm._v(" "),
         _c("div", [
           _c(
@@ -21790,9 +22603,9 @@ var render = function() {
                 },
                 [
                   _vm._v(
-                    "\n           " +
+                    "\n            " +
                       _vm._s(_vm.$t("guest-navbar.home")) +
-                      "\n       "
+                      "\n        "
                   )
                 ]
               ),
@@ -21805,9 +22618,24 @@ var render = function() {
                 },
                 [
                   _vm._v(
-                    "\n           " +
+                    "\n            " +
                       _vm._s(_vm.$t("guest-navbar.about")) +
-                      "\n       "
+                      "\n        "
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "router-link",
+                {
+                  staticClass: "inline-block py-1 md:py-4 text-gray-100 mr-6",
+                  attrs: { to: "/" + _vm.$i18n.locale + "/contacts" }
+                },
+                [
+                  _vm._v(
+                    "\n            " +
+                      _vm._s(_vm.$t("guest-navbar.contacts")) +
+                      "\n        "
                   )
                 ]
               )
@@ -21824,21 +22652,32 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "inline-block cursor-pointer md:hidden" }, [
-      _c("div", {
-        staticClass: "bg-gray-400 w-8 mb-2",
-        staticStyle: { height: "2px" }
-      }),
+    return _c("div", { staticClass: "flex justify-between items-center" }, [
+      _c(
+        "a",
+        {
+          staticClass: "inline-block py-2 text-white text-xl",
+          attrs: { href: "https://www.jacopolelli.com", target: "_blank" }
+        },
+        [_vm._v("\n          JL\n        ")]
+      ),
       _vm._v(" "),
-      _c("div", {
-        staticClass: "bg-gray-400 w-8 mb-2",
-        staticStyle: { height: "2px" }
-      }),
-      _vm._v(" "),
-      _c("div", {
-        staticClass: "bg-gray-400 w-8",
-        staticStyle: { height: "2px" }
-      })
+      _c("div", { staticClass: "inline-block cursor-pointer md:hidden" }, [
+        _c("div", {
+          staticClass: "bg-gray-400 w-8 mb-2",
+          staticStyle: { height: "2px" }
+        }),
+        _vm._v(" "),
+        _c("div", {
+          staticClass: "bg-gray-400 w-8 mb-2",
+          staticStyle: { height: "2px" }
+        }),
+        _vm._v(" "),
+        _c("div", {
+          staticClass: "bg-gray-400 w-8",
+          staticStyle: { height: "2px" }
+        })
+      ])
     ])
   }
 ]
@@ -21864,7 +22703,47 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "text-2xl text-gray-800" }, [
-    _vm._v("\n    About page\n")
+    _c("h1", { staticClass: "text-3xl" }, [
+      _vm._v(_vm._s(_vm.$t("about.title")))
+    ]),
+    _vm._v(" "),
+    _c("br"),
+    _vm._v(" "),
+    _c("p", [_vm._v("\n        " + _vm._s(_vm.$t("about.content")) + "\n    ")])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Contacts.vue?vue&type=template&id=2d69ed48&":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Contacts.vue?vue&type=template&id=2d69ed48& ***!
+  \******************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "text-2xl text-gray-800" }, [
+    _c("h1", { staticClass: "text-3xl" }, [
+      _vm._v(_vm._s(_vm.$t("contacts.title")))
+    ]),
+    _vm._v(" "),
+    _c("br"),
+    _vm._v(" "),
+    _c("p", [
+      _vm._v("\n        " + _vm._s(_vm.$t("contacts.content")) + "\n    ")
+    ])
   ])
 }
 var staticRenderFns = []
@@ -21944,9 +22823,15 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "text-2xl text-gray-800" }, [
-    _vm._v("\n    " + _vm._s(_vm.$t("welcome.title")) + "\n    "),
+    _c("h1", { staticClass: "text-3xl" }, [
+      _vm._v(_vm._s(_vm.$t("welcome.title")))
+    ]),
+    _vm._v(" "),
     _c("br"),
-    _vm._v("\n    " + _vm._s(_vm.$t("message")) + "\n")
+    _vm._v(" "),
+    _c("p", [
+      _vm._v("\n        " + _vm._s(_vm.$t("welcome.content")) + "\n    ")
+    ])
   ])
 }
 var staticRenderFns = []
@@ -37210,6 +38095,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./routes */ "./resources/js/routes.js");
 /* harmony import */ var vue_i18n__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-i18n */ "./node_modules/vue-i18n/dist/vue-i18n.esm.js");
 /* harmony import */ var _i18n_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./i18n.js */ "./resources/js/i18n.js");
+/* harmony import */ var _node_modules_icon_themify_icons_themify_icons_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../node_modules/@icon/themify-icons/themify-icons.css */ "./node_modules/@icon/themify-icons/themify-icons.css");
+/* harmony import */ var _node_modules_icon_themify_icons_themify_icons_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_icon_themify_icons_themify_icons_css__WEBPACK_IMPORTED_MODULE_4__);
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -37218,6 +38105,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+
 
 
 
@@ -37238,6 +38126,7 @@ vue_routes.beforeEach(function (to, from, next) {
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('guest-navbar', __webpack_require__(/*! ./layouts/navbars/GuestNavbar.vue */ "./resources/js/layouts/navbars/GuestNavbar.vue")["default"]);
+Vue.component('vue-footer', __webpack_require__(/*! ./layouts/footers/VueFooter.vue */ "./resources/js/layouts/footers/VueFooter.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -37320,6 +38209,59 @@ function loadLocaleMessages() {
   fallbackLocale: 'en',
   messages: loadLocaleMessages()
 }));
+
+/***/ }),
+
+/***/ "./resources/js/layouts/footers/VueFooter.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/layouts/footers/VueFooter.vue ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _VueFooter_vue_vue_type_template_id_1b273af6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./VueFooter.vue?vue&type=template&id=1b273af6& */ "./resources/js/layouts/footers/VueFooter.vue?vue&type=template&id=1b273af6&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _VueFooter_vue_vue_type_template_id_1b273af6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _VueFooter_vue_vue_type_template_id_1b273af6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/layouts/footers/VueFooter.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/layouts/footers/VueFooter.vue?vue&type=template&id=1b273af6&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/layouts/footers/VueFooter.vue?vue&type=template&id=1b273af6& ***!
+  \***********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_VueFooter_vue_vue_type_template_id_1b273af6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./VueFooter.vue?vue&type=template&id=1b273af6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/layouts/footers/VueFooter.vue?vue&type=template&id=1b273af6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_VueFooter_vue_vue_type_template_id_1b273af6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_VueFooter_vue_vue_type_template_id_1b273af6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 
@@ -37414,10 +38356,10 @@ webpackContext.id = "./resources/js/locales sync recursive [A-Za-z0-9-_,\\s]+\\.
 /*!**************************************!*\
   !*** ./resources/js/locales/en.json ***!
   \**************************************/
-/*! exports provided: message, welcome, guest-navbar, not_found, default */
+/*! exports provided: message, welcome, about, contacts, guest-navbar, not_found, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"message\":\"Hello World!\",\"welcome\":{\"title\":\"Welcome\"},\"guest-navbar\":{\"home\":\"Home\",\"about\":\"About\"},\"not_found\":{\"title\":\"Page Not Found | 404 Error\",\"home\":\"Click\",\"here\":\"here\",\"back\":\"to go back to Home\"}}");
+module.exports = JSON.parse("{\"message\":\"Hello World!\",\"welcome\":{\"title\":\"Welcome\",\"content\":\"Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.\"},\"about\":{\"title\":\"About Me\",\"content\":\"Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.\"},\"contacts\":{\"title\":\"Contacts\",\"content\":\"Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.\"},\"guest-navbar\":{\"home\":\"Home\",\"about\":\"About\",\"contacts\":\"Contacts\"},\"not_found\":{\"title\":\"Page Not Found | 404 Error\",\"home\":\"Click\",\"here\":\"here\",\"back\":\"to go back to Home\"}}");
 
 /***/ }),
 
@@ -37425,10 +38367,10 @@ module.exports = JSON.parse("{\"message\":\"Hello World!\",\"welcome\":{\"title\
 /*!**************************************!*\
   !*** ./resources/js/locales/it.json ***!
   \**************************************/
-/*! exports provided: message, welcome, guest-navbar, not_found, default */
+/*! exports provided: message, welcome, about, contacts, guest-navbar, not_found, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"message\":\"Ciao Mondo!\",\"welcome\":{\"title\":\"Benvenuto\"},\"guest-navbar\":{\"home\":\"Home\",\"about\":\"Chi Sono\"},\"not_found\":{\"title\":\"Pagina non trovata | Errore 404\",\"home\":\"Clicca\",\"here\":\"qui\",\"back\":\"per tornare alla Home\"}}");
+module.exports = JSON.parse("{\"message\":\"Ciao Mondo!\",\"welcome\":{\"title\":\"Benvenuto\",\"content\":\"Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.\"},\"about\":{\"title\":\"Chi Sono\",\"content\":\"Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.\"},\"contacts\":{\"title\":\"Contatti\",\"content\":\"Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.\"},\"guest-navbar\":{\"home\":\"Home\",\"about\":\"Chi Sono\",\"contacts\":\"Contatti\"},\"not_found\":{\"title\":\"Pagina non trovata | Errore 404\",\"home\":\"Clicca\",\"here\":\"qui\",\"back\":\"per tornare alla Home\"}}");
 
 /***/ }),
 
@@ -37480,6 +38422,59 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_template_id_520b5d54___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_template_id_520b5d54___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/pages/Contacts.vue":
+/*!*****************************************!*\
+  !*** ./resources/js/pages/Contacts.vue ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Contacts_vue_vue_type_template_id_2d69ed48___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Contacts.vue?vue&type=template&id=2d69ed48& */ "./resources/js/pages/Contacts.vue?vue&type=template&id=2d69ed48&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _Contacts_vue_vue_type_template_id_2d69ed48___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Contacts_vue_vue_type_template_id_2d69ed48___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/pages/Contacts.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/pages/Contacts.vue?vue&type=template&id=2d69ed48&":
+/*!************************************************************************!*\
+  !*** ./resources/js/pages/Contacts.vue?vue&type=template&id=2d69ed48& ***!
+  \************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Contacts_vue_vue_type_template_id_2d69ed48___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Contacts.vue?vue&type=template&id=2d69ed48& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Contacts.vue?vue&type=template&id=2d69ed48&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Contacts_vue_vue_type_template_id_2d69ed48___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Contacts_vue_vue_type_template_id_2d69ed48___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -37603,7 +38598,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _i18n_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./i18n.js */ "./resources/js/i18n.js");
 /* harmony import */ var _pages_Welcome_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/Welcome.vue */ "./resources/js/pages/Welcome.vue");
 /* harmony import */ var _pages_About_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/About.vue */ "./resources/js/pages/About.vue");
-/* harmony import */ var _pages_NotFound_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/NotFound.vue */ "./resources/js/pages/NotFound.vue");
+/* harmony import */ var _pages_Contacts_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/Contacts.vue */ "./resources/js/pages/Contacts.vue");
+/* harmony import */ var _pages_NotFound_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/NotFound.vue */ "./resources/js/pages/NotFound.vue");
+
 
 
 
@@ -37630,8 +38627,12 @@ __webpack_require__.r(__webpack_exports__);
       component: _pages_About_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
       name: 'About'
     }, {
+      path: 'contacts',
+      component: _pages_Contacts_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+      name: 'Contacts'
+    }, {
       path: '*',
-      component: _pages_NotFound_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+      component: _pages_NotFound_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
       name: 'NotFound'
     }]
   }]

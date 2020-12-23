@@ -2,12 +2,24 @@
     "message" : "Hello World!",
     "welcome" : 
     {
-        "title" : "Welcome"
+        "title" : "Welcome",
+        "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi."
+    },
+    "about" : 
+    {
+        "title" : "About Me",
+        "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi."
+    },
+    "contacts" : 
+    {
+        "title" : "Contacts",
+        "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi."
     },
     "guest-navbar" :
     {
         "home"  : "Home",
-        "about" : "About"
+        "about" : "About",
+        "contacts" : "Contacts"
     },
     "not_found" : {
         "title" : "Page Not Found | 404 Error",

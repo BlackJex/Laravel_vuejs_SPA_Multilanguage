@@ -2,12 +2,24 @@
     "message": "Ciao Mondo!",
     "welcome" : 
     {
-        "title" : "Benvenuto"
+        "title" : "Benvenuto",
+        "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi."
+    },
+    "about" : 
+    {
+        "title" : "Chi Sono",
+        "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi."
+    },
+    "contacts" : 
+    {
+        "title" : "Contatti",
+        "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi.Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident similique dicta neque quasi vitae veniam qui explicabo rerum ex. Iure nesciunt adipisci cumque aperiam culpa porro velit amet modi."
     },
     "guest-navbar" :
     {
         "home": "Home",
-        "about": "Chi Sono"
+        "about": "Chi Sono",
+        "contacts" : "Contatti"
     },
     "not_found" : {
         "title" : "Pagina non trovata | Errore 404",

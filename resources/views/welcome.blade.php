@@ -4,4 +4,5 @@
     <div class="container mx-auto py-4">
         <router-view></router-view>
     </div>
+    <vue-footer></vue-footer>
 @endsection
