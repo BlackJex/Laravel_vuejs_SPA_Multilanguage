@@ -1,0 +1,18 @@
+{
+    "message": "Ciao Mondo!",
+    "welcome" : 
+    {
+        "title" : "Benvenuto"
+    },
+    "guest-navbar" :
+    {
+        "home": "Home",
+        "about": "Chi Sono"
+    },
+    "not_found" : {
+        "title" : "Pagina non trovata | Errore 404",
+        "home"  : "Clicca" ,
+        "here"  : "qui",
+        "back"  : "per tornare alla Home"
+    }
+}
