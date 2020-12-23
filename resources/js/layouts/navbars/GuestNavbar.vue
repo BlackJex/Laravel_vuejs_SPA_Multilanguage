@@ -23,6 +23,7 @@
              <router-link :to="`/${$i18n.locale}/contacts`" class="inline-block py-1 md:py-4 text-gray-100 mr-6">
                 {{ $t('guest-navbar.contacts') }}
             </router-link>
+            <lang-dropdown></lang-dropdown>
           </div>
         </div>
         <!-- Login & Register buttons -->
@@ -37,3 +38,12 @@
       </div>
     </div>
 </template>
+<script>
+import LangDropdown from '../../components/LangDropdown.vue'
+export default {
+    components:
+    {
+        LangDropdown
+    }
+}
+</script>
